@@ -228,6 +228,6 @@
         <InArgument x:TypeArguments="x:String">[String.Format("{0} year(s) :{1} month(s) :{2} day(s) :{3} hour(s) :{4} minute(s) :{5} second(s)", Year, Month, Days, Hours, Minutes, Seconds)]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[&quot;Hello &quot; + User_Name + &quot; you are &quot; + Final + &quot; old&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[&quot;Hello &quot; + User_Name + &quot; you are &quot; + Final + &quot; old&quot;]" />
   </Sequence>
 </Activity>
